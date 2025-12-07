@@ -1,0 +1,59 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg*
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# IDE / editor crap
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Qt / PySide generated files
+*.qrc.py
+*.ui.py
+*.qmlc
+*.jsc
+*.pyi
+
+# MyPy / type checking
+.mypy_cache/
+.pytype/
+.dmypy.json
+
+# PyTest / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# SQLite database file(s)
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# macOS junk
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Python packaging
+*.whl
+MANIFEST
